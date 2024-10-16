@@ -1,10 +1,12 @@
-from create_bot import logger
-from .base import connection
-from .models import User, Change
-from sqlalchemy import select
 from typing import List, Optional, Tuple
+
+from create_bot import logger
+from sqlalchemy import select
 from sqlalchemy.exc import SQLAlchemyError
 from utils.consts import DIRECTION_CHOICES
+
+from .base import connection
+from .models import Change, User
 
 
 @connection

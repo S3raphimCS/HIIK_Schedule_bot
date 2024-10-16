@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 
-
 URL = 'https://hiik.ru/students/schedule/izmenenie-v-raspisanii.php'
 
 def parse():
